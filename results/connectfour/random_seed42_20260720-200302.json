@@ -1,0 +1,7060 @@
+{
+  "environment": "connectfour",
+  "agent": "random",
+  "seed": 42,
+  "commit": "unknown",
+  "commit_dirty": false,
+  "timestamp": "20260720-200302",
+  "opponent_pool_version": "v0-demo",
+  "checkpoint_path": null,
+  "config": {
+    "agent": "random",
+    "environment": "connectfour",
+    "seed": 42,
+    "episodes": 500,
+    "opponents": [
+      "random",
+      "heuristic"
+    ]
+  },
+  "metrics": {
+    "per_opponent": {
+      "random": {
+        "num_episodes": 500,
+        "win_rate": 0.506,
+        "loss_rate": 0.492,
+        "draw_rate": 0.002,
+        "avg_return": 0.014,
+        "return_std": 0.9999017987854751,
+        "return_ci95": [
+          -0.07364525700201865,
+          0.10164525700201865
+        ],
+        "illegal_action_rate": 0.0,
+        "elo_estimate": 1232.5561849972134
+      },
+      "heuristic": {
+        "num_episodes": 500,
+        "win_rate": 0.098,
+        "loss_rate": 0.902,
+        "draw_rate": 0.0,
+        "avg_return": -0.804,
+        "return_std": 0.595224819014077,
+        "return_ci95": [
+          -0.8561737557626511,
+          -0.751826244237349
+        ],
+        "illegal_action_rate": 0.0,
+        "elo_estimate": 805.439869855041
+      }
+    },
+    "summary": {
+      "avg_win_rate_across_opponents": 0.302,
+      "worst_opponent": "heuristic",
+      "worst_opponent_win_rate": 0.098,
+      "avg_illegal_action_rate": 0.0
+    }
+  },
+  "raw_episodes": [
+    {
+      "opponent": "random",
+      "episode": 0,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 1,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 2,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 3,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 4,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 5,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 6,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 7,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 8,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 9,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 10,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 11,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 12,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 13,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 14,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 15,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 16,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 17,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 18,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 19,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 20,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 21,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 22,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 23,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 24,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 25,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 26,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 27,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 28,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 29,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 30,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 31,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 32,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 33,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 34,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 35,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 36,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 37,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 38,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 39,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 40,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 41,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 42,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 43,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 44,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 45,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 46,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 47,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 48,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 49,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 50,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 51,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 52,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 53,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 54,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 55,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 56,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 57,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 58,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 59,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 60,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 61,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 62,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 63,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 64,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 65,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 66,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 67,
+      "agent_seat": 1,
+      "agent_return": 0.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 68,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 69,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 70,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 71,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 72,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 73,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 74,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 75,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 76,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 77,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 78,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 79,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 80,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 81,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 82,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 83,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 84,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 85,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 86,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 87,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 88,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 89,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 90,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 91,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 92,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 93,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 94,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 95,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 96,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 97,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 98,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 99,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 100,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 101,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 102,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 103,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 104,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 105,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 106,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 107,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 108,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 109,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 110,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 111,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 112,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 113,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 114,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 115,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 116,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 117,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 118,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 119,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 120,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 121,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 122,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 123,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 124,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 125,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 126,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 127,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 128,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 129,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 130,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 131,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 132,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 133,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 134,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 135,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 136,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 137,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 138,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 139,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 140,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 141,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 142,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 143,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 144,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 145,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 146,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 147,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 148,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 149,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 150,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 151,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 152,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 153,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 154,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 155,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 156,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 157,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 158,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 159,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 160,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 161,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 162,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 163,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 164,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 165,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 166,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 167,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 168,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 169,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 170,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 171,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 172,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 173,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 174,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 175,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 176,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 177,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 178,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 179,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 180,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 181,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 182,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 183,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 184,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 185,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 186,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 187,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 188,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 189,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 190,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 191,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 192,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 193,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 194,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 195,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 196,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 197,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 198,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 199,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 200,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 201,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 202,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 203,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 204,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 205,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 206,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 207,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 208,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 209,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 210,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 211,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 212,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 213,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 214,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 215,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 216,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 217,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 218,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 219,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 220,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 221,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 222,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 223,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 224,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 225,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 226,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 227,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 228,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 229,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 230,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 231,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 232,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 233,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 234,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 235,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 236,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 237,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 238,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 239,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 240,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 241,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 242,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 243,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 244,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 245,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 246,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 247,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 248,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 249,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 250,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 251,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 252,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 253,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 254,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 255,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 256,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 257,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 258,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 259,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 260,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 261,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 262,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 263,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 264,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 265,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 266,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 267,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 268,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 269,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 270,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 271,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 272,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 273,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 274,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 275,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 276,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 277,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 278,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 279,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 280,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 281,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 282,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 283,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 284,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 285,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 286,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 287,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 288,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 289,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 290,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 291,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 292,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 293,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 294,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 295,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 296,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 297,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 298,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 299,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 300,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 301,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 302,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 303,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 304,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 305,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 306,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 307,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 308,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 309,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 310,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 311,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 312,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 313,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 314,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 315,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 316,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 317,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 318,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 319,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 320,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 321,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 322,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 323,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 324,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 325,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 326,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 327,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 328,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 329,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 330,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 331,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 332,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 333,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 334,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 335,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 336,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 337,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 338,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 339,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 340,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 341,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 342,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 343,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 344,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 345,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 346,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 347,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 348,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 349,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 350,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 351,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 352,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 353,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 354,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 355,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 356,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 357,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 358,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 359,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 360,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 361,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 362,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 363,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 364,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 365,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 366,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 367,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 368,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 369,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 370,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 371,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 372,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 373,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 374,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 375,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 376,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 377,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 378,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 379,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 380,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 381,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 382,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 383,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 384,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 385,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 386,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 387,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 388,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 389,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 390,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 391,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 392,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 393,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 394,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 395,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 396,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 397,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 398,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 399,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 400,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 401,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 402,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 403,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 404,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 405,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 406,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 407,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 408,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 409,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 410,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 411,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 412,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 413,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 414,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 415,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 416,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 417,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 418,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 419,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 420,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 421,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 422,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 423,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 424,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 425,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 426,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 427,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 428,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 429,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 430,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 431,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 432,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 433,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 434,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 435,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 436,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 437,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 438,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 439,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 440,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 441,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 442,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 443,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 444,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 445,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 446,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 447,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 448,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 449,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 450,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 451,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 452,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 453,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 454,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 455,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 456,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 457,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 458,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 459,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 460,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 461,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 462,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 463,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 464,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 465,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 466,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 467,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 468,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 469,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 470,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 471,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 472,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 473,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 474,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 475,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 476,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 477,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 478,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 479,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 480,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 481,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 482,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 483,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 484,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 485,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 486,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 487,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 488,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 489,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 490,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 491,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 492,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 493,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 494,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 495,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 496,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 497,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 498,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "random",
+      "episode": 499,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 0,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 1,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 2,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 3,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 4,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 5,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 6,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 7,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 8,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 9,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 10,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 11,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 12,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 13,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 14,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 15,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 16,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 17,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 18,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 19,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 20,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 21,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 22,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 23,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 24,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 25,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 26,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 27,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 28,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 29,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 30,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 31,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 32,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 33,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 34,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 35,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 36,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 37,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 38,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 39,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 40,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 41,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 42,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 43,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 44,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 45,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 46,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 47,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 48,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 49,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 50,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 51,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 52,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 53,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 54,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 55,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 56,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 57,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 58,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 59,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 60,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 61,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 62,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 63,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 64,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 65,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 66,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 67,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 68,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 69,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 70,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 71,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 72,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 73,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 74,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 75,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 76,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 77,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 78,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 79,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 80,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 81,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 82,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 83,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 84,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 85,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 86,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 87,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 88,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 89,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 90,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 91,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 92,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 93,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 94,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 95,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 96,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 97,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 98,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 99,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 100,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 101,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 102,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 103,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 104,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 105,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 106,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 107,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 108,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 109,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 110,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 111,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 112,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 113,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 114,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 115,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 116,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 117,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 118,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 119,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 120,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 121,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 122,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 123,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 124,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 125,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 126,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 127,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 128,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 129,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 130,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 131,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 132,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 133,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 134,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 135,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 136,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 137,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 138,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 139,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 140,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 141,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 142,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 143,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 144,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 145,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 146,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 147,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 148,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 149,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 150,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 151,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 152,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 153,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 154,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 155,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 156,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 157,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 158,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 159,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 160,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 161,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 162,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 163,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 164,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 165,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 166,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 167,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 168,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 169,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 170,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 171,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 172,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 173,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 174,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 175,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 176,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 177,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 178,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 179,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 180,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 181,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 182,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 183,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 184,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 185,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 186,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 187,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 188,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 189,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 190,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 191,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 192,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 193,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 194,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 195,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 196,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 197,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 198,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 199,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 200,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 201,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 202,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 203,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 204,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 205,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 206,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 207,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 208,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 209,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 210,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 211,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 212,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 213,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 214,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 215,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 216,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 217,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 218,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 219,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 220,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 221,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 222,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 223,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 224,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 225,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 226,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 227,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 228,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 229,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 230,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 231,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 232,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 233,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 234,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 235,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 236,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 237,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 238,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 239,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 240,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 241,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 242,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 243,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 244,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 245,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 246,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 247,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 248,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 249,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 250,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 251,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 252,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 253,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 254,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 255,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 256,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 257,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 258,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 259,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 260,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 261,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 262,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 263,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 264,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 265,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 266,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 267,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 268,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 269,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 270,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 271,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 272,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 273,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 274,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 275,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 276,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 277,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 278,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 279,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 280,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 281,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 282,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 283,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 284,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 285,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 286,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 287,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 288,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 289,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 290,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 291,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 292,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 293,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 294,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 295,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 296,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 297,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 298,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 299,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 300,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 301,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 302,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 303,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 304,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 305,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 306,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 307,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 308,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 309,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 310,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 311,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 312,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 313,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 314,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 315,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 316,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 317,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 318,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 319,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 320,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 321,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 322,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 323,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 324,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 325,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 326,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 327,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 328,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 329,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 330,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 331,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 332,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 333,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 334,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 335,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 336,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 337,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 338,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 339,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 340,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 341,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 342,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 343,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 344,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 345,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 346,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 347,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 348,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 349,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 350,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 351,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 352,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 353,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 354,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 355,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 356,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 357,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 358,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 359,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 360,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 361,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 362,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 363,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 364,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 365,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 366,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 367,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 368,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 369,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 370,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 371,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 372,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 373,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 374,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 375,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 376,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 377,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 378,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 379,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 380,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 381,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 382,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 383,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 384,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 385,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 386,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 387,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 388,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 389,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 390,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 391,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 392,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 393,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 394,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 395,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 396,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 397,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 398,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 399,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 400,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 401,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 402,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 403,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 404,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 405,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 406,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 407,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 408,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 409,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 410,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 411,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 412,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 413,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 414,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 415,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 416,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 417,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 418,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 419,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 420,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 421,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 422,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 423,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 424,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 425,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 426,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 427,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 428,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 429,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 430,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 431,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 432,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 433,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 434,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 435,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 436,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 437,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 438,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 439,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 440,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 441,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 442,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 443,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 444,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 445,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 446,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 447,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 448,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 449,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 450,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 451,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 452,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 453,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 454,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 455,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 456,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 457,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 458,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 459,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 460,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 461,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 462,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 463,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 464,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 465,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 466,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 467,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 468,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 469,
+      "agent_seat": 1,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 470,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 471,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 472,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 473,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 474,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 475,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 476,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 477,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 478,
+      "agent_seat": 0,
+      "agent_return": 1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 479,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 480,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 481,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 482,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 483,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 484,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 485,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 486,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 487,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 488,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 489,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 490,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 491,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 492,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 493,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 494,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 495,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 496,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 497,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 498,
+      "agent_seat": 0,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "heuristic",
+      "episode": 499,
+      "agent_seat": 1,
+      "agent_return": -1.0,
+      "illegal_actions": 0
+    }
+  ]
+}
