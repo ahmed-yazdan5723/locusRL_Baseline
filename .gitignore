@@ -1,0 +1,49 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+htmlcov/
+
+# Virtual environments and local Python packaging output
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Generated experiment outputs
+results/
+logs/
+wandb/
+runs/
+
+# Model/checkpoint artifacts
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Local Codex/agent workspace state
+.codex/
+.agents/
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
