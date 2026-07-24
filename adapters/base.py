@@ -12,12 +12,14 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
+Action = Any
+
 
 @dataclass
 class Observation:
     numeric_state: Any                 # e.g. board as array/grid
     text_state: str                    # canonical text rendering for LLM agents
-    legal_actions: List[int]           # list of legal action ids for current_player
+    legal_actions: List[Action]        # list of legal action ids for current_player
     current_player: int                # whose turn it is, 0-indexed
     done: bool                         # episode terminated
     outcome: Optional[Dict[int, float]] = None   # {player_id: return}, set when done
@@ -38,7 +40,7 @@ class GameAdapter(ABC):
         """Start a new episode, return the initial observation."""
 
     @abstractmethod
-    def step(self, action: int) -> Observation:
+    def step(self, action: Action) -> Observation:
         """Apply `action` for the current player, return the next observation.
         Implementations should raise ValueError on an illegal action rather
         than silently ignoring it — the eval runner is responsible for

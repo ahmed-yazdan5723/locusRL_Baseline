@@ -1,7 +1,7 @@
 """Legal-Random baseline: the floor every other agent must clear."""
 import random
 
-from adapters.base import Observation
+from adapters.base import Action, Observation
 from agents.base import BaseAgent
 from agents.registry import register_agent
 
@@ -14,5 +14,5 @@ class RandomAgent(BaseAgent):
         super().__init__(seed=seed, **kwargs)
         self._rng = random.Random(seed)
 
-    def act(self, obs: Observation) -> int:
+    def act(self, obs: Observation) -> Action:
         return self._rng.choice(obs.legal_actions)

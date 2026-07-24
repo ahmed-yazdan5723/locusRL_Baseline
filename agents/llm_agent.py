@@ -12,9 +12,9 @@ Augmentation / Ensemble Prediction work only needs to hook into
 import json
 import re
 from abc import abstractmethod
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, Optional, Tuple
 
-from adapters.base import Observation
+from adapters.base import Action, Observation
 from agents.base import BaseAgent
 from utils.logging_utils import get_logger
 
@@ -33,10 +33,13 @@ class LLMPolicyAgent(BaseAgent):
     )
 
     def __init__(self, seed: Optional[int] = None, checkpoint_path: Optional[str] = None,
+                 model_name: Optional[str] = None,
                  max_retries: int = 2, temperature: float = 0.7,
                  top_p: float = 0.95, ensemble: int = 1,
                  mask_actions: bool = True, **kwargs):
         super().__init__(seed=seed, checkpoint_path=checkpoint_path, **kwargs)
+        if model_name is not None:
+            self.model_name = model_name
         self.max_retries = max_retries
         self.temperature = temperature
         self.top_p = top_p
@@ -54,7 +57,7 @@ class LLMPolicyAgent(BaseAgent):
     def _build_prompt(self, obs: Observation) -> str:
         return obs.text_state
 
-    def _parse_action(self, response_text: str, legal_actions: List[int]) -> Tuple[Optional[int], Dict[str, int]]:
+    def _parse_action(self, response_text: str, legal_actions: list[Action]) -> Tuple[Optional[Action], Dict[str, int]]:
         """Best-effort parse of the model's JSON action into a column/id.
         Accepts either {"action": "DROP", "column": N} or a bare integer,
         since different games will have different schemas — subclasses
@@ -68,7 +71,10 @@ class LLMPolicyAgent(BaseAgent):
         if match:
             try:
                 obj = json.loads(match.group(0))
-                for key in ("column", "value", "action_id", "id"):
+                action = self._coerce_json_action(obj, legal_actions)
+                if action is not None:
+                    return action, diagnostics
+                for key in ("column", "value", "action_id", "id", "bid", "card"):
                     if key in obj and isinstance(obj[key], int):
                         return obj[key], diagnostics
             except (json.JSONDecodeError, TypeError):
@@ -80,7 +86,29 @@ class LLMPolicyAgent(BaseAgent):
         diagnostics["parser_failures"] += 1
         return None, diagnostics
 
-    def act(self, obs: Observation) -> int:
+    def _coerce_json_action(self, obj: Dict[str, Any], legal_actions: list[Action]) -> Optional[Action]:
+        raw_action = obj.get("action")
+        if raw_action in legal_actions:
+            return raw_action
+        if not isinstance(raw_action, str):
+            return None
+
+        normalized = raw_action.strip().lower().replace("-", "_").replace(" ", "_")
+        aliases = {
+            "check": "check_call",
+            "call": "check_call",
+            "check_call": "check_call",
+            "bet": "bet_raise",
+            "raise": "bet_raise",
+            "bet_raise": "bet_raise",
+            "fold": "fold",
+        }
+        candidate = aliases.get(normalized)
+        if candidate in legal_actions:
+            return candidate
+        return None
+
+    def act(self, obs: Observation) -> Action:
         """Tries up to max_retries+1 times to get a legal action from the
         model. If it never manages to, this returns the last best-effort
         parse (or a sentinel if nothing parsed at all) WITHOUT silently

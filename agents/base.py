@@ -3,9 +3,9 @@ Prompt-Only LLM, SFT-Only LLM, ...) implements this same small surface,
 so eval/runner.py never needs to know which kind of agent it's driving.
 """
 from abc import ABC, abstractmethod
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Optional
 
-from adapters.base import Observation
+from adapters.base import Action, Observation
 
 
 class BaseAgent(ABC):
@@ -17,7 +17,7 @@ class BaseAgent(ABC):
         self.checkpoint_path = checkpoint_path
 
     @abstractmethod
-    def act(self, obs: Observation) -> int:
+    def act(self, obs: Observation) -> Action:
         """Return a legal action id given the current observation.
         Implementations should try to only return values in
         obs.legal_actions; the eval runner treats anything else as an

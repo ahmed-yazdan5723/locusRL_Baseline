@@ -65,7 +65,11 @@ def play_episode(env, agent: BaseAgent, opponent: BaseAgent, agent_player_idx: i
     environment_steps = 0
     action_latencies_ms = []
 
+    max_steps = getattr(env, "max_steps", 200)
     while not obs.done:
+        if environment_steps >= max_steps:
+            raise RuntimeError(f"{getattr(env, 'name', 'environment')} did not terminate within {max_steps} steps.")
+
         current = agent if obs.current_player == agent_player_idx else opponent
         started_at = time.perf_counter()
         action = current.act(obs)
@@ -124,6 +128,7 @@ def run_evaluation(
     episodes: int,
     checkpoint_path: str = None,
     agent_kwargs: Dict = None,
+    max_steps: int = 200,
 ) -> Dict:
     """Runs `episodes` games of `agent_name` against each opponent in
     `opponents`, alternating who moves first, and returns a metrics dict
@@ -144,6 +149,7 @@ def run_evaluation(
         opponent = OpponentClass(seed=seed + 1)  # decorrelate opponent RNG from agent RNG
 
         env = EnvClass(seed=seed)
+        env.max_steps = max_steps
         episode_results = []
         for ep in range(episodes):
             agent_player_idx = ep % env.num_players  # alternate seat to avoid first-move bias
